@@ -1,0 +1,217 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="RequiredBuildEventImportance">0</setting>
+    </integer>
+    <boolean>
+      <setting name="AutoShowBuildResults">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+      <setting name="UseMsbuildSolutionBuilder">False</setting>
+      <setting name="UseMsbuildSolutionBuilderConsentDisplayed.07">True</setting>
+      <setting name="UseSolBuilderDuoStatusBarIndicator">True</setting>
+      <setting name="UseSolBuilderDuoView_tmp">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="d:Miscellaneous Files/f:JetBrains.ReSharper.Daemon.CSharp.Stages.CSharpHighlightingBase.cs/l:X!?JetBrains?Source?BlogCode?ReSharperPlugin.Part2?MakeVirtualPlugin?_ReSharper.MakeVirtualPlugin?DecompilerCache?metadata?JetBrains.ReSharper.Daemon.CSharp-7d17?JetBrains.ReSharper.Daemon.CSharp.Stages.CSharpHighlightingBase.cs" caret="425" fromTop="7" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStage.cs" caret="619" fromTop="17" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualQuickFix.cs" caret="203" fromTop="4" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1563" fromTop="12" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualSuggestion.cs" caret="791" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualQuickFix.cs" caret="981" fromTop="21" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualQuickFix.cs" caret="1145" fromTop="19" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualSuggestion.cs" caret="259" fromTop="4" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStage.cs" caret="218" fromTop="1" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStage.cs" caret="383" fromTop="13" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="549" fromTop="28" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="549" fromTop="29" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="549" fromTop="15" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="271" fromTop="2" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualSuggestion.cs" caret="568" fromTop="7" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualSuggestion.cs" caret="793" fromTop="18" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStage.cs" caret="383" fromTop="11" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="549" fromTop="13" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1728" fromTop="32" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualSuggestion.cs" caret="884" fromTop="26" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1728" fromTop="20" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1728" fromTop="10" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1726" fromTop="44" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="548" fromTop="0" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1636" fromTop="16" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1079" fromTop="13" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1559" fromTop="21" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="1636" fromTop="20" />
+      <File id="665C7EC6-44E4-4D3C-90B2-19659747731F/f:MakeMethodVirtualDaemonStageProcess.cs" caret="549" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="DaemonStage`0" priority="0" />
+      <Item value="new" priority="13" />
+      <Item value="ErrorStripeRequest`0" priority="0" />
+      <Item value="process" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="ArgumentNullException`0" priority="0" />
+      <Item value="if" priority="3" />
+      <Item value="processKind" priority="0" />
+      <Item value="OTHER" priority="0" />
+      <Item value="null" priority="1" />
+      <Item value="return" priority="11" />
+      <Item value="IDaemonStageProcess`0" priority="0" />
+      <Item value="_process" priority="6" />
+      <Item value="var" priority="9" />
+      <Item value="PsiLanguageType`0" priority="0" />
+      <Item value="as" priority="4" />
+      <Item value="readonly" priority="0" />
+      <Item value="HighlightingInfo`0" priority="3" />
+      <Item value="List&lt;HighlightingInfo&gt;" priority="3" />
+      <Item value="file" priority="9" />
+      <Item value="false" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="element" priority="0" />
+      <Item value="ICSharpElement`0" priority="0" />
+      <Item value="csElement" priority="1" />
+      <Item value="this" priority="2" />
+      <Item value="cSharpFileParam" priority="1" />
+      <Item value="base" priority="1" />
+      <Item value="context" priority="1" />
+      <Item value="methodDeclarationParam" priority="7" />
+      <Item value="HighlightingInfo" priority="0" />
+      <Item value="docRange" priority="0" />
+      <Item value="VirtualMethodHighlighter`0" priority="1" />
+      <Item value="_highlights" priority="5" />
+      <Item value="commiter" priority="1" />
+      <Item value="DaemonStageResult" priority="1" />
+      <Item value="MakeMethodVirtualVisitor" priority="1" />
+      <Item value="MakeMethodVirtualVisitor`0" priority="5" />
+      <Item value="_elementVistor" priority="0" />
+      <Item value="List" priority="1" />
+      <Item value="public" priority="4" />
+      <Item value="class" priority="2" />
+      <Item value="FuckYou`0" priority="1" />
+      <Item value="RecursiveHighlightingElementVisitor`0" priority="2" />
+      <Item value="RealVisitor" priority="0" />
+      <Item value="ICSharpFile`0" priority="6" />
+      <Item value="IList" priority="0" />
+      <Item value="RealVisitor`0" priority="0" />
+      <Item value="crappyClass" priority="0" />
+      <Item value="highlighter" priority="0" />
+      <Item value="_highlighter" priority="9" />
+      <Item value="IBulbItem" priority="0" />
+      <Item value="GetHashCode`0" priority="2" />
+      <Item value="solution" priority="2" />
+      <Item value="BulbItemImpl`0" priority="0" />
+      <Item value="progress" priority="0" />
+      <Item value="memberDeclaration" priority="0" />
+      <Item value="Declaration" priority="2" />
+      <Item value="accessRights" priority="0" />
+      <Item value="PUBLIC" priority="0" />
+      <Item value="item" priority="0" />
+      <Item value="IsVirtual" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="_someField" priority="0" />
+      <Item value="PsiManager`0" priority="1" />
+      <Item value="CSharpLanguageService" priority="0" />
+      <Item value="CSHARP" priority="0" />
+      <Item value="RecursiveElementProcessor`0" priority="0" />
+      <Item value="JetBrains" priority="0" />
+      <Item value="ReSharper" priority="0" />
+      <Item value="Psi" priority="0" />
+      <Item value="CSharp" priority="0" />
+      <Item value="Tree" priority="0" />
+      <Item value="visitor" priority="1" />
+      <Item value="CSharpLanguageService`0" priority="1" />
+      <Item value="Action" priority="0" />
+      <Item value="DaemonStageResult`0" priority="0" />
+      <Item value="RecursiveElementProcessor" priority="1" />
+      <Item value="IMethodDeclaration`0" priority="0" />
+      <Item value="DeclarationStatementNavigator`0" priority="0" />
+      <Item value="processor" priority="0" />
+      <Item value="declaration" priority="7" />
+      <Item value="highlights" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JetBrains.ReSharper.Daemon.ErrorStripeRequest">
+      <Item value="STRIPE_AND_ERRORS" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Daemon.IDaemonProcess">
+      <Item value="InterruptFlag" priority="1" />
+      <Item value="Solution" priority="2" />
+      <Item value="Document" priority="1" />
+      <Item value="ProjectFile" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JetBrains.ReSharper.Psi.PsiManager">
+      <Item value="GetInstance`0" priority="3" />
+      <Item value="SyntheticAttribute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Psi.PsiManager">
+      <Item value="GetPsiFile`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JetBrains.ReSharper.Psi.PsiLanguageType">
+      <Item value="ANY" priority="1" />
+      <Item value="ANY_LANGUAGEID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Psi.CSharp.Tree.ICSharpFile">
+      <Item value="Accept`2" priority="2" />
+      <Item value="ProcessDescendants`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Psi.CSharp.Tree.ICSharpElement">
+      <Item value="Accept`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Psi.CSharp.Tree.ElementVisitor`2">
+      <Item value="VisitCSharpFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Psi.CSharp.Tree.IMethodDeclaration">
+      <Item value="IsVirtual" priority="0" />
+      <Item value="GetNameDocumentRange`0" priority="0" />
+      <Item value="GetAccessRights`0" priority="0" />
+      <Item value="IsStatic" priority="0" />
+      <Item value="IsOverride" priority="0" />
+      <Item value="Accept`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MakeVirtualPlugin.FuckYou">
+      <Item value="VisitMethodDeclaration`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MakeVirtualPlugin.SomeCrappyClass">
+      <Item value="SomeCrap`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MakeVirtualPlugin.VirtualMethodHighlighter">
+      <Item value="IsValid`0" priority="3" />
+      <Item value="ToolTip" priority="0" />
+      <Item value="Declaration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ProjectModel.ISolution">
+      <Item value="GetSolution`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ReSharper.Psi.CSharp.Tree.ICSharpTypeMemberDeclaration">
+      <Item value="SetVirtual`0" priority="0" />
+      <Item value="IsValid`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JetBrains.ReSharper.Daemon.DaemonProcessKind">
+      <Item value="OTHER" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JetBrains.ProjectModel.IProjectFile">
+      <Item value="GetPsiFile`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JetBrains.ReSharper.Psi.CSharp.CSharpLanguageService">
+      <Item value="CSHARP" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
