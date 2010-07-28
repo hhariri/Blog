@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AnalyseParams>
+  <Executable>X:\Libraries\MSpec\MSpec.exe</Executable>
+  <Arguments>specs.dll</Arguments>
+  <WorkingDir>Specs\bin\Debug</WorkingDir>
+  <Output>output.xml</Output>
+  <Filters>
+    <IncludeFilters>
+      <FilterEntry>
+        <ModuleMask>ClassLib</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
+      </FilterEntry>
+    </IncludeFilters>
+    <ExcludeFilters>
+    </ExcludeFilters>
+  </Filters>
+</AnalyseParams>
+

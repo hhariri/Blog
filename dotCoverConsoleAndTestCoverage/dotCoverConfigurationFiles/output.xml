@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root Name="Root" CoveredStatements="3" TotalStatements="14" CoveragePercent="21">
+  <Assembly Name="ClassLib" CoveredStatements="3" TotalStatements="14" CoveragePercent="21">
+    <Namespace Name="ClassLib" CoveredStatements="3" TotalStatements="14" CoveragePercent="21">
+      <Type Name="Calculator" CoveredStatements="3" TotalStatements="12" CoveragePercent="25">
+        <Member Name="Add" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Member Name="Divide" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+        <Member Name="Multiply" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+        <Member Name="Subtract" CoveredStatements="0" TotalStatements="3" CoveragePercent="0" />
+        <Member Name=".ctor" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      </Type>
+      <Type Name="AnotherClass" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+        <Member Name="UnTestedMethod" CoveredStatements="0" TotalStatements="2" CoveragePercent="0" />
+        <Member Name=".ctor" CoveredStatements="0" TotalStatements="0" CoveragePercent="0" />
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>

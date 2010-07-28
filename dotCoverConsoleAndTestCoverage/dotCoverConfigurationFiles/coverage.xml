@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AnalyseParams>
+  <Executable>X:\Libraries\MSpec\MSpec.exe</Executable>
+  <Arguments>Specs.dll</Arguments>
+  <WorkingDir>Specs\bin\debug</WorkingDir>
+  <Output>output.xml</Output>
+</AnalyseParams>
+

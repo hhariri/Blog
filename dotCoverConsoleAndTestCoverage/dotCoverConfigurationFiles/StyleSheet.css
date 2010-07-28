@@ -1,0 +1,75 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#namespace
+{
+    margin-left: 2%;
+}
+
+#type
+{
+    margin-left: 4%;
+}
+
+#member 
+{
+    margin-left: 6%;
+}
+
+
+.name
+{
+    float: left;
+    width: 20%;
+}
+
+.covered_percentage
+{
+    float: left;
+    margin-left: 10%;
+    height: 10px;
+    color: #FF9900;
+
+}
+
+.total_statements
+{
+    float:left;
+    margin-left: 12%;
+    height: 10px;
+    color: #0033CC;
+}
+
+.covered_statements
+{
+    float: left;
+    margin-left: 14%;
+    height: 10px;
+    color: #33CC33;
+}
+
+.legend_total_statements
+{
+    background-color: #0000FF;
+    color: #0033CC;
+}
+
+.legend_covered_statements
+{
+    background-color: #33CC33;
+    color: #33CC33;
+}
+.legend_covered_percentage
+{
+    background-color: #FF9900;
+    color: #FF9900;
+}

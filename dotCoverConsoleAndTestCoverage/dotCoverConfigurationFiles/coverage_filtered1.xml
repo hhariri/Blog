@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AnalyseParams>
+  <Executable>X:\Libraries\MSpec\MSpec.exe</Executable>
+  <Arguments>specs.dll</Arguments>
+  <WorkingDir>Specs\bin\Debug</WorkingDir>
+  <Output>output.xml</Output>
+  <Filters>
+    <ExcludeFilters>
+      <FilterEntry>
+        <ModuleMask>Machine.*</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
+      </FilterEntry>
+      <FilterEntry>
+        <ModuleMask>Specs</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
+      </FilterEntry>
+      <FilterEntry>
+        <ModuleMask>mspec</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
+      </FilterEntry>
+      <FilterEntry>
+        <ModuleMask>CommandLine</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
+      </FilterEntry>
+    </ExcludeFilters>
+  </Filters>
+</AnalyseParams>
+

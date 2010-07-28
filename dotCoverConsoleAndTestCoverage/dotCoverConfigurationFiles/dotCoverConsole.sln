@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC25110A-21A1-42FE-B2AD-3F2BEC59C5FE}"
+	ProjectSection(SolutionItems) = preProject
+		coverage.xml = coverage.xml
+		coverage_filtered1.xml = coverage_filtered1.xml
+		coverage_filtered2.xml = coverage_filtered2.xml
+		Html.xslt = Html.xslt
+		Json.xslt = Json.xslt
+		..\..\..\Temp\output.html = ..\..\..\Temp\output.html
+		output.json = output.json
+		output.xml = output.xml
+		StyleSheet.css = StyleSheet.css
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassLib.csproj", "{BD5AD634-E354-4C07-A0D3-946351B50C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{01A45D36-6E7A-42EE-8A63-CA0234D4CB03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD5AD634-E354-4C07-A0D3-946351B50C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5AD634-E354-4C07-A0D3-946351B50C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5AD634-E354-4C07-A0D3-946351B50C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5AD634-E354-4C07-A0D3-946351B50C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A45D36-6E7A-42EE-8A63-CA0234D4CB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A45D36-6E7A-42EE-8A63-CA0234D4CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A45D36-6E7A-42EE-8A63-CA0234D4CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A45D36-6E7A-42EE-8A63-CA0234D4CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
