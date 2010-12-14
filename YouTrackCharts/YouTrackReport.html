@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/basic.css" type="text/css" rel="stylesheet" />
+    <link href="css/visualize.css" type="text/css" rel="stylesheet" />
+    <link href="css/visualize-dark.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/visualize.jQuery.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/ajaxPoll.js"></script>
+    <script type="text/javascript">
+
+       $(function() {
+
+           $('table').hide();
+
+           $("#displayReport").click(function() {
+                renderTable();
+           })
+
+           var series = [
+               {Project: "ReSharper",Open: 0, Fixed:0, Duplicate: 0},
+               {Project: "dotCover",Open: 0, Fixed: 0, Duplicate: 0},
+               {Project: "dotTrace",Open: 0, Fixed: 0, Duplicate: 0}
+           ];
+
+           function getStatistics() {
+
+                 $.each(series, function (index, entry) {
+
+                     $.each(entry, function (property, value){
+
+                         if (property != "Project") {
+
+                             $.ajaxPoll({
+                                             url: "http://youtrack.jetbrains.net/rest/issue/count?filter=" + encodeURI("project: " + entry.Project + " state: " + property),
+                                             dataType: "jsonp",
+                                             successCondition: function(result) {
+                                                return result != -1;
+                                             },
+                                             success: function(data, textStatus, xhr) {
+                                                series[index][property] = data;
+                                             }
+                              });
+                         }
+
+                    });
+                 });
+
+
+           }
+
+           getStatistics();
+
+           function renderTable() {
+
+
+
+               var markup = '<tr><th scope=\'row\'>${Project}<td>${Open}</td><td>${Fixed}</td><td>${Duplicate}</td></tr>';
+
+               $.template("tableTemplate", markup);
+
+               $("#rows").empty();
+               $.tmpl("tableTemplate", series).appendTo("#rows");
+
+               $('table').show();
+
+               $('table').visualize({type: 'bar', barMargin: 3, appendTitle: false});
+           }
+
+       });
+
+    </script>
+</head>
+
+<body>
+<input type="button" value="Display Report" id="displayReport"/>
+<br/>
+
+<table>
+    <caption>Status by Project</caption>
+<thead>
+		<tr>
+			<td></td>
+			<th scope="col">Open</th>
+			<th scope="col">Fixed</th>
+			<th scope="col">Duplicate</th>
+		</tr>
+	</thead>
+	<tbody id="rows">
+
+	</tbody>
+</table>
+
+</body>
+</html>
