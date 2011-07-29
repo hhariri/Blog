@@ -1,6 +1,6 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
+
 using JetBrains.ReSharper.Feature.Services.LiveTemplates.Hotspots;
 using JetBrains.ReSharper.Feature.Services.LiveTemplates.Macros;
 using JetBrains.ReSharper.Feature.Services.Lookup;
@@ -10,8 +10,6 @@ using JetBrains.Util;
 
 namespace CustomTemplateMacros
 {
-
-    
     [Macro("CustomTemplateMacros.MethodResultTypeMacro", 
         ShortDescription = "Result type of containing method",
         LongDescription = "Obtains the result type of the containing method it is used in")]
@@ -35,7 +33,7 @@ namespace CustomTemplateMacros
             {
                 var lookupItems = new List<ILookupItem>();
 
-                var item = new TextLookupItem(((IMethod)method).ReturnType.GetPresentableName(method.Language));
+                var item = new TextLookupItem(((IMethod)method).ReturnType.GetPresentableName(method.PresentationLanguage));
                 
                 lookupItems.Add(item);
                 
