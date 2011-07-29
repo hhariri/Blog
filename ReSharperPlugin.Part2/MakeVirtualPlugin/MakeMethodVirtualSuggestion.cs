@@ -1,11 +1,11 @@
 using System;
 using JetBrains.ReSharper.Daemon;
-using JetBrains.ReSharper.Daemon.CSharp.Stages;
+using JetBrains.ReSharper.Daemon.CSharp.Errors;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 
 namespace MakeVirtualPlugin
 {
-    [StaticSeverityHighlighting(Severity.SUGGESTION)]
+    [StaticSeverityHighlighting(Severity.SUGGESTION, "C#")]
     public class MakeMethodVirtualSuggestion : CSharpHighlightingBase, IHighlighting
     {
         public ICSharpTypeMemberDeclaration Declaration { get; private set; }
