@@ -20,7 +20,7 @@ namespace MakeVirtualPlugin
         }
 
         // In the transaction we make the necessary changes to the code
-        protected override Action<ITextControl> ExecuteTransaction(ISolution solution, IProgressIndicator progress)
+        protected override Action<ITextControl> ExecutePsiTransaction(ISolution solution, IProgressIndicator progress)
         {
             _highlighter.Declaration.SetVirtual(true);
 
