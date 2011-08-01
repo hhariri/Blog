@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using JetBrains.ReSharper.Daemon;
 using JetBrains.ReSharper.Psi;
-using JetBrains.ReSharper.Psi.CSharp;
 using JetBrains.ReSharper.Psi.CSharp.Tree;
 using JetBrains.ReSharper.Psi.Tree;
 
@@ -27,7 +26,7 @@ namespace MakeVirtualPlugin
             }
 
 
-            var file = _process.ProjectFile.GetPsiFile(CSharpLanguageService.CSHARP) as ICSharpFile;
+            var file = _process.SourceFile as ICSharpFile;
 
             if (file != null)
             {
@@ -54,6 +53,9 @@ namespace MakeVirtualPlugin
 
         }
 
-        
+        public IDaemonProcess DaemonProcess
+        {
+            get { return _process; }
+        }
     }
 }
