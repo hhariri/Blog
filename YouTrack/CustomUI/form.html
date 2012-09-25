@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom YouTrack Submit Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/override.css">
+</head>
+<body>
+
+
+<h3>Submit Issue</h3>
+
+<form onsubmit="createIssue(); return false;" class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label" for="project">Project</label>
+
+        <div class="controls">
+            <select name="project" id="project">
+                <option>Loading projects...</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="summary">Summary</label>
+
+        <div class="controls">
+            <input type="text" id="summary" style="width: 50%"/>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="description">Description</label>
+
+
+        <div class="controls">
+            <textarea name="description" id="description" cols="30" rows="10" style="width: 50%"></textarea>
+        </div>
+
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <input type="submit" value="Create Issue" class="btn btn-primary"/>
+            <span id="result">Issue created!</span>
+        </div>
+
+    </div>
+</form>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" onscroll="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+
+    function createIssue() {
+        $.ajax({
+            url:"http://scrumboard.myjetbrains.com" +
+                    "/youtrack/rest/issue",
+            dataType:"json",
+            type:"POST",
+            data:{
+                project:$("#project").val(),
+                summary:$("#summary").val(),
+                description:$("#description").val()
+            }
+        }).done(function (data) {
+                    $("#result").show();
+                    $("#summary").val('');
+                    $("#description").val('');
+                });
+    }
+
+    function loadProjects() {
+        $.ajax({
+            url:"http://scrumboard.myjetbrains.com" +
+                    "/youtrack/rest/project/all",
+            dataType:"json"
+        }).done(function (data) {
+                    var project = $("#project");
+                    project.empty();
+                    $.each(data, function(index, value) {
+                        project.append($("<option/>", {
+                            value: value.shortName,
+                            text: value.name
+                        }))
+                    });
+                });
+    }
+
+
+    $(function(){
+        $("#result").hide();
+        loadProjects();
+    })
+
+
+
+
+
+</script>
+
+</body>
+</html>

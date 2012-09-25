@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Issue</title>
+    <style>
+        label {float: left;width: 6em;}
+        input[type="text"] {width: 300px;}
+        textarea {width: 304px;}
+        div {margin: 10px;}
+    </style>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function reportIssue() {
+            $.ajax({
+                url:"http://scrumboard.myjetbrains.com/youtrack/rest/issue",
+                dataType:"json",
+                type:"POST",
+                data:{
+                    project:$("#project").val(),
+                    summary:$("#summary").val(),
+                    description:$("#description").val()
+                }
+            }).done(function (data) {
+                        window.alert("Issue created: " + data.id);
+                    });
+        }
+
+        function loadProjects() {
+            $.ajax({
+                url:"http://scrumboard.myjetbrains.com/youtrack/rest/project/all",
+                dataType:"json"
+            }).done(function (data) {
+                        var p = $("#project");
+                        p.empty();
+                        $.each(data, function(index, value) {
+                            p.append("<option value='" + value.shortName + "'>" + value.name + "</option>");
+                        });
+                    });
+        }
+
+        $(function(){
+            $.ajaxSetup({
+                error: function (xhr, text, error) {
+                    window.alert(text);
+                }
+            });
+
+            loadProjects();
+        })
+    </script>
+</head>
+<body>
+<form onsubmit="reportIssue(); return false;">
+    <div>
+        <label for="project">Project:</label>
+        <select id="project">
+            <option>Projects not loaded...</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="summary">Summary:</label>
+        <input id="summary" type="text" placeholder="Enter summary">
+    </div>
+
+    <div>
+        <label for="description">Description:</label>
+        <textarea id="description" placeholder="Enter description"></textarea>
+    </div>
+
+    <input type="submit" value="Submit">
+</form>
+</form>
+</body>
+</html>
